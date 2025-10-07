@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
-      <ZoomEndTime time="81.500001 us"></ZoomEndTime>
-      <Cursor1Time time="11.385000 us"></Cursor1Time>
+      <ZoomStartTime time="0.015000 us"></ZoomStartTime>
+      <ZoomEndTime time="40.965001 us"></ZoomEndTime>
+      <Cursor1Time time="19.865000 us"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="143"></NameColumnWidth>
-      <ValueColumnWidth column_width="73"></ValueColumnWidth>
+      <ValueColumnWidth column_width="69"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="29" />
+   <WVObjectSize size="33" />
    <wvobject fp_name="/parallel_DAC_tb/in_clk" type="logic">
       <obj_property name="ElementShortName">in_clk</obj_property>
       <obj_property name="ObjectShortName">in_clk</obj_property>
@@ -132,12 +132,28 @@
       <obj_property name="ElementShortName">out_data[15:0]</obj_property>
       <obj_property name="ObjectShortName">out_data[15:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/parallel_DAC_tb/top/sel_1_0" type="logic">
+   <wvobject fp_name="/parallel_DAC_tb/top/dac_inst/sel_1_0" type="logic">
       <obj_property name="ElementShortName">sel_1_0</obj_property>
       <obj_property name="ObjectShortName">sel_1_0</obj_property>
    </wvobject>
-   <wvobject fp_name="/parallel_DAC_tb/top/sel_1_1" type="logic">
+   <wvobject fp_name="/parallel_DAC_tb/top/dac_inst/sel_1_1" type="logic">
       <obj_property name="ElementShortName">sel_1_1</obj_property>
       <obj_property name="ObjectShortName">sel_1_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/dac_inst/sel_2_0" type="logic">
+      <obj_property name="ElementShortName">sel_2_0</obj_property>
+      <obj_property name="ObjectShortName">sel_2_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/dac_inst/sel_2_1" type="logic">
+      <obj_property name="ElementShortName">sel_2_1</obj_property>
+      <obj_property name="ObjectShortName">sel_2_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/dac_inst/AS2_r" type="logic">
+      <obj_property name="ElementShortName">AS2_r</obj_property>
+      <obj_property name="ObjectShortName">AS2_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/dac_inst/out_data" type="array">
+      <obj_property name="ElementShortName">out_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out_data[15:0]</obj_property>
    </wvobject>
 </wave_config>

@@ -26,6 +26,8 @@ module top#(
     
     output logic        sel_1_0,
     output logic        sel_1_1,
+    output logic        sel_2_0,
+    output logic        sel_2_1,
     output logic        AS2_r,
     output  logic       wready,
     output logic        JB1,
@@ -141,6 +143,8 @@ parallel_DAC #(
     .valid(in_valid), 
     .sel_1_0(sel_1_0),
     .sel_1_1(sel_1_1),
+    .sel_2_0(sel_2_0),
+    .sel_2_1(sel_2_1),
     .ready(in_ready),
     .out_data({JA1,JA2,JA3,JA4,JA7,JA8,JA9,JA10,JB1,JB2,JB3,JB4,JB7,JB8,JB9,JB10})
 );

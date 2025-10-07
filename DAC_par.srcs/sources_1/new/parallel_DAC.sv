@@ -19,6 +19,9 @@ module parallel_DAC #(
     output logic     out_busy,
     output logic        sel_1_0,
     output logic        sel_1_1,
+    output logic        sel_2_0,
+    output logic        sel_2_1,
+    output logic        AS2_r,
     output logic [15:0] out_data
 );
     logic      in_start;
@@ -39,7 +42,7 @@ module parallel_DAC #(
     assign out_ss = ss;
     assign out_busy = busy;
 
-    logic [1:0] sel_r;
+    logic [2:0] sel_r;
     logic block;
     always_ff @(posedge in_clk or negedge in_reset) begin
         if(!in_reset) begin
@@ -182,10 +185,15 @@ module parallel_DAC #(
         sel_r <= 'b0;
     end else if (data_went) begin
             sel_r<=sel_r + 1'b1;
-       end else if(sel_r == 2'b10) begin
+       end else if(sel_r == 3'b010) begin
+            AS2_r <= 1'b1;
+        end else if(sel_r == 3'b100) begin
             sel_r <= 'b0;
-        end 
+            AS2_r <= 1'b0;
+        end
 end
-assign sel_1_0 = sel_r[0];
-assign sel_1_1 = sel_r[1];
+assign sel_1_0 = (sel_r == 3'b001);
+assign sel_1_1 = (sel_r == 3'b010);
+assign sel_2_0 = (sel_r == 3'b011);
+assign sel_2_1 = (sel_r == 3'b100);
 endmodule
