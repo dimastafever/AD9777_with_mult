@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Mon Oct  6 13:15:07 2025
+# Process ID: 4776
+# Current directory: C:/Vivado_Projects/DAC_par
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13060 C:\Vivado_Projects\DAC_par\DAC_par.xpr
+# Log file: C:/Vivado_Projects/DAC_par/vivado.log
+# Journal file: C:/Vivado_Projects/DAC_par\vivado.jou
+# Running On: DESKTOP-JUTT43E, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 4, Host memory: 8392 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Vivado_Projects/DAC_par/DAC_par.xpr
+launch_simulation
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation

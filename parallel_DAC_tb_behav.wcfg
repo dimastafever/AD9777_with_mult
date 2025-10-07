@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="parallel_DAC_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="parallel_DAC_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="81.500001 us"></ZoomEndTime>
+      <Cursor1Time time="11.385000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="143"></NameColumnWidth>
+      <ValueColumnWidth column_width="73"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/parallel_DAC_tb/in_clk" type="logic">
+      <obj_property name="ElementShortName">in_clk</obj_property>
+      <obj_property name="ObjectShortName">in_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/kx_u" type="array">
+      <obj_property name="ElementShortName">kx_u[31:0]</obj_property>
+      <obj_property name="ObjectShortName">kx_u[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/bx_u" type="array">
+      <obj_property name="ElementShortName">bx_u[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bx_u[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/kx_c" type="array">
+      <obj_property name="ElementShortName">kx_c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">kx_c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/bx_c" type="array">
+      <obj_property name="ElementShortName">bx_c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bx_c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/ky_u" type="array">
+      <obj_property name="ElementShortName">ky_u[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ky_u[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/by_u" type="array">
+      <obj_property name="ElementShortName">by_u[31:0]</obj_property>
+      <obj_property name="ObjectShortName">by_u[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/ky_c" type="array">
+      <obj_property name="ElementShortName">ky_c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ky_c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/by_c" type="array">
+      <obj_property name="ElementShortName">by_c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">by_c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/wdatax" type="array">
+      <obj_property name="ElementShortName">wdatax[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdatax[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/wdatay" type="array">
+      <obj_property name="ElementShortName">wdatay[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdatay[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/validx" type="logic">
+      <obj_property name="ElementShortName">validx</obj_property>
+      <obj_property name="ObjectShortName">validx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/validy" type="logic">
+      <obj_property name="ElementShortName">validy</obj_property>
+      <obj_property name="ObjectShortName">validy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/wvalid" type="logic">
+      <obj_property name="ElementShortName">wvalid</obj_property>
+      <obj_property name="ObjectShortName">wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/k_u" type="array">
+      <obj_property name="ElementShortName">k_u[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k_u[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/b_u" type="array">
+      <obj_property name="ElementShortName">b_u[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b_u[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/k_c" type="array">
+      <obj_property name="ElementShortName">k_c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k_c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/b_c" type="array">
+      <obj_property name="ElementShortName">b_c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b_c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/mult_code/value_og" type="array">
+      <obj_property name="ElementShortName">value_og[31:0]</obj_property>
+      <obj_property name="ObjectShortName">value_og[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/mult_code/valid_i" type="logic">
+      <obj_property name="ElementShortName">valid_i</obj_property>
+      <obj_property name="ObjectShortName">valid_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/mult_code/value_out" type="array">
+      <obj_property name="ElementShortName">value_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">value_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/mult_code/valid_o" type="logic">
+      <obj_property name="ElementShortName">valid_o</obj_property>
+      <obj_property name="ObjectShortName">valid_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/store_valid" type="logic">
+      <obj_property name="ElementShortName">store_valid</obj_property>
+      <obj_property name="ObjectShortName">store_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/fifo_inst/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:15][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:15][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/dac_inst/out_data" type="array">
+      <obj_property name="ElementShortName">out_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/sel_1_0" type="logic">
+      <obj_property name="ElementShortName">sel_1_0</obj_property>
+      <obj_property name="ObjectShortName">sel_1_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_DAC_tb/top/sel_1_1" type="logic">
+      <obj_property name="ElementShortName">sel_1_1</obj_property>
+      <obj_property name="ObjectShortName">sel_1_1</obj_property>
+   </wvobject>
+</wave_config>

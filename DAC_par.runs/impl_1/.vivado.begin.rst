@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="ִלטענטי" Host="DESKTOP-JUTT43E" Pid="8444" HostCore="8" HostMemory="08392003584">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="ִלטענטי" Host="DESKTOP-JUTT43E" Pid="1204" HostCore="8" HostMemory="08392003584">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="ִלטענטי" Host="DESKTOP-JUTT43E" Pid="9652" HostCore="8" HostMemory="08392003584">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="ִלטענטי" Host="DESKTOP-JUTT43E" Pid="13180" HostCore="8" HostMemory="08392003584">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="ִלטענטי" Host="DESKTOP-JUTT43E" Pid="6792" HostCore="8" HostMemory="08392003584">
+    </Process>
+</ProcessHandle>

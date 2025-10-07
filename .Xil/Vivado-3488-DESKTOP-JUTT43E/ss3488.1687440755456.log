@@ -1,0 +1,20 @@
+srcscan starts
+=============== Using precompiled files for SV std libs ===========
+INFO: The Verilog library search path for library "std" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/sv/std" (VERI-1509)
+INFO: The Verilog library search path for library "uvm" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/sv/uvm" (VERI-1509)
+INFO: analyzing module fifo (VERI-9002)
+INFO: analyzing module parallel_DAC (VERI-9002)
+INFO:srcscan starts
+=============== Using precompiled files for SV std libs ===========
+INFO: The Verilog library search path for library "std" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/sv/std" (VERI-1509)
+INFO: The Verilog library search path for library "uvm" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/sv/uvm" (VERI-1509)
+INFO: analyzing module fifo (VERI-9002)
+INFO: analyzing module parallel_DAC (VERI-9002)
+INFO: analyzing module top (VERI-9002)
+INFO: analyzing module fifo (VERI-9002)
+C:/Users/AACE~1/AppData/Local/Temp/VivadoEditorAssist10927386124620931882.tmp(1): WARNING: overwriting previous definition of module 'fifo' (VERI-1206)
+INFO: analyzing module parallel_DAC (VERI-9002)
+C:/Users/AACE~1/AppData/Local/Temp/VivadoEditorAssist3526738347433376811.tmp(3): WARNING: overwriting previous definition of module 'parallel_DAC' (VERI-1206)
+INFO: analyzing module top (VERI-9002)
+C:/Users/AACE~1/AppData/Local/Temp/VivadoEditorAssist5603473304801378594.tmp(3): WARNING: overwriting previous definition of module 'top' (VERI-1206)
+srcscan exits with return value 0

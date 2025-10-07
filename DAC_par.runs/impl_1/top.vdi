@@ -1,0 +1,367 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Tue Oct  7 14:47:25 2025
+# Process ID: 5916
+# Current directory: C:/Vivado_Projects/DAC_par/DAC_par.runs/impl_1
+# Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: C:/Vivado_Projects/DAC_par/DAC_par.runs/impl_1/top.vdi
+# Journal file: C:/Vivado_Projects/DAC_par/DAC_par.runs/impl_1\vivado.jou
+# Running On: DESKTOP-JUTT43E, OS: Windows, CPU Frequency: 3000 MHz, CPU Physical cores: 4, Host memory: 8392 MB
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/Vivado/2023.2/scripts/Vivado_init.tcl'
+0 Beta devices matching pattern found, 0 enabled.
+enable_beta_device: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 431.289 ; gain = 163.000
+source top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Vivado_Projects/ip_repo/parallel_DAC_lite_1_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+Command: link_design -top top -part xc7z020clg484-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 887.473 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 164 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Vivado_Projects/DAC_par/DAC_par.srcs/constrs_1/new/XDC.xdc]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 33]]'. [C:/Vivado_Projects/DAC_par/DAC_par.srcs/constrs_1/new/XDC.xdc:362]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Vivado_Projects/DAC_par/DAC_par.srcs/constrs_1/new/XDC.xdc:362]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 34]]'. [C:/Vivado_Projects/DAC_par/DAC_par.srcs/constrs_1/new/XDC.xdc:367]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Vivado_Projects/DAC_par/DAC_par.srcs/constrs_1/new/XDC.xdc:367]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Vivado_Projects/DAC_par/DAC_par.srcs/constrs_1/new/XDC.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1016.207 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+10 Infos, 2 Warnings, 2 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1016.207 ; gain = 555.066
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1045.152 ; gain = 28.945
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1af339dc8
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1558.230 ; gain = 513.078
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 1af339dc8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1925.410 ; gain = 0.000
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 1af339dc8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Phase 1 Initialization | Checksum: 1af339dc8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1925.410 ; gain = 0.000
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 1af339dc8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1925.410 ; gain = 0.000
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 1af339dc8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Phase 2 Timer Update And Timing Data Collection | Checksum: 1af339dc8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1925.410 ; gain = 0.000
+
+Phase 3 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 1af339dc8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Retarget | Checksum: 1af339dc8
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 1c974c389
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.094 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Constant propagation | Checksum: 1c974c389
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: 1062b137b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.122 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Sweep | Checksum: 1062b137b
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 6 BUFG optimization
+Phase 6 BUFG optimization | Checksum: 1062b137b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.167 . Memory (MB): peak = 1925.410 ; gain = 0.000
+BUFG optimization | Checksum: 1062b137b
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 1062b137b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.169 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Shift Register Optimization | Checksum: 1062b137b
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 1062b137b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.175 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Post Processing Netlist | Checksum: 1062b137b
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 1890e2454
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.214 . Memory (MB): peak = 1925.410 ; gain = 0.000
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 1890e2454
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.217 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Phase 9 Finalization | Checksum: 1890e2454
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.218 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 1890e2454
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.219 . Memory (MB): peak = 1925.410 ; gain = 0.000
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1925.410 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 1890e2454
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1925.410 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 1890e2454
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1925.410 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 1890e2454
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1925.410 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+28 Infos, 2 Warnings, 2 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 1925.410 ; gain = 909.203
+INFO: [runtcl-4] Executing : report_drc -file top_drc_opted.rpt -pb top_drc_opted.pb -rpx top_drc_opted.rpx
+Command: report_drc -file top_drc_opted.rpt -pb top_drc_opted.pb -rpx top_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Vivado_Projects/DAC_par/DAC_par.runs/impl_1/top_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Writing XDEF routing.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 1925.410 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Vivado_Projects/DAC_par/DAC_par.runs/impl_1/top_opt.dcp' has been generated.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 12bb373d4
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1925.410 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+ERROR: [Place 30-415] IO Placement failed due to overutilization. This design contains 326 I/O ports
+ while the target  device: 7z020 package: clg484, contains only 305 available user I/O. The target device has 330 usable I/O pins of which 25 are already occupied by user-locked I/Os.
+ To rectify this issue:
+ 1. Ensure you are targeting the correct device and package.  Select a larger device or different package if necessary.
+ 2. Check the top-level ports of the design to ensure the correct number of ports are specified.
+ 3. Consider design changes to reduce the number of I/Os necessary.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+ERROR: [Place 30-68] Instance AS2_r_OBUF_inst (OBUFT) is not placed
+ERROR: [Place 30-68] Instance JC4_N_OBUF_BUFG_inst (BUFG) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[0]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[10]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[11]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[12]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[13]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[14]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[15]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[16]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[17]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[18]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[19]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[1]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[20]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[21]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[22]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[23]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[24]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[25]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[26]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[27]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[28]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[29]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[2]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[30]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[31]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[3]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[4]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[5]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[6]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[7]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[8]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_c_IBUF[9]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[0]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[10]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[11]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[12]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[13]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[14]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[15]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[16]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[17]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[18]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[19]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[1]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[20]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[21]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[22]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[23]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[24]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[25]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[26]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[27]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[28]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[29]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[2]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[30]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[31]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[3]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[4]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[5]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[6]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[7]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[8]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance bx_u_IBUF[9]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[0]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[10]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[11]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[12]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[13]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[14]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[15]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[16]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[17]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[18]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[19]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[1]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[20]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[21]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[22]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[23]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[24]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[25]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[26]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[27]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[28]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[29]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[2]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[30]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[31]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[3]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[4]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[5]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[6]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[7]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[8]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_c_IBUF[9]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_u_IBUF[0]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance by_u_IBUF[10]_inst (IBUF) is not placed
+INFO: [Common 17-14] Message 'Place 30-68' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 13bba240f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.451 . Memory (MB): peak = 1925.410 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 13bba240f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.451 . Memory (MB): peak = 1925.410 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: 13bba240f
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.453 . Memory (MB): peak = 1925.410 ; gain = 0.000
+45 Infos, 2 Warnings, 2 Critical Warnings and 103 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Tue Oct  7 14:47:58 2025...

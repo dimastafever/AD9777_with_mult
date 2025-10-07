@@ -1,0 +1,17 @@
+srcscan starts
+=============== Using precompiled files for SV std libs ===========
+INFO: The Verilog library search path for library "std" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/sv/std" (VERI-1509)
+INFO: The Verilog library search path for library "uvm" is now "C:/Xilinx/Vivado/2023.2/data/precomp_hsv/sv/uvm" (VERI-1509)
+INFO: analyzing module fifo (VERI-9002)
+INFO: analyzing module parallel_DAC (VERI-9002)
+INFO: analyzing module parallel_DAC_tb (VERI-9002)
+INFO: analyzing module top (VERI-9002)
+Listing tops:
+VeriTop library:xil_defaultlib mod:parallel_DAC_tb
+VeriTop library:xil_defaultlib mod:top
+END of tops
+C:/Vivado_Projects/DAC_par/DAC_par.srcs/sim_1/new/parallel_DAC_tb.sv(3): INFO: compiling module 'parallel_DAC_tb_default' (VERI-1018)
+C:/Vivado_Projects/DAC_par/DAC_par.srcs/sources_1/new/top.sv(3): INFO: compiling module 'top_default' (VERI-1018)
+ModName: fifo(DATA_WIDTH=16,DEPTH=4)
+BaseName fifo has 1 entries
+srcscan exits with return value 0
