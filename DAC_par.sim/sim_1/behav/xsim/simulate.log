@@ -1,2 +1,68 @@
 Time resolution is 1 ps
-$finish called at time : 9875 ns : File "C:/Vivado_Projects/DAC_par/DAC_par.srcs/sim_1/new/parallel_DAC_tb.sv" Line 147
+=== Начало тестирования BRAM ===
+Время: 15000
+
+--- Тест 1: Запись и чтение через порт A ---
+Запись через порт A: addr=0, data=0x00000010
+Запись через порт A: addr=1, data=0x00000011
+[35000] Запись PORT_A: addr=0, data=0x00000010
+Запись через порт A: addr=2, data=0x00000012
+[45000] Запись PORT_A: addr=1, data=0x00000011
+Запись через порт A: addr=3, data=0x00000013
+[55000] Запись PORT_A: addr=2, data=0x00000012
+[65000] Запись PORT_A: addr=3, data=0x00000013
+Чтение через порт A: addr=0, data=0x00000013 (ожидается 0x00000010)
+Error: Ошибка чтения порта A!
+Time: 95 ns  Iteration: 0  Process: /tb_bram/test_write_read_port_a/Block147_6  Scope: tb_bram.test_write_read_port_a.Block147_6  File: C:/Vivado_Projects/DAC_par/DAC_par.srcs/sim_1/new/tb_bram.sv Line: 155
+Чтение через порт A: addr=1, data=0x00000010 (ожидается 0x00000011)
+Error: Ошибка чтения порта A!
+Time: 115 ns  Iteration: 0  Process: /tb_bram/test_write_read_port_a/Block147_6  Scope: tb_bram.test_write_read_port_a.Block147_6  File: C:/Vivado_Projects/DAC_par/DAC_par.srcs/sim_1/new/tb_bram.sv Line: 155
+Чтение через порт A: addr=2, data=0x00000011 (ожидается 0x00000012)
+Error: Ошибка чтения порта A!
+Time: 135 ns  Iteration: 0  Process: /tb_bram/test_write_read_port_a/Block147_6  Scope: tb_bram.test_write_read_port_a.Block147_6  File: C:/Vivado_Projects/DAC_par/DAC_par.srcs/sim_1/new/tb_bram.sv Line: 155
+Чтение через порт A: addr=3, data=0x00000012 (ожидается 0x00000013)
+Error: Ошибка чтения порта A!
+Time: 155 ns  Iteration: 0  Process: /tb_bram/test_write_read_port_a/Block147_6  Scope: tb_bram.test_write_read_port_a.Block147_6  File: C:/Vivado_Projects/DAC_par/DAC_par.srcs/sim_1/new/tb_bram.sv Line: 155
+
+--- Тест 2: Запись и чтение через порт B ---
+Запись через порт B: addr=4, data=0x00000024
+Запись через порт B: addr=5, data=0x00000025
+[185000] Запись PORT_B: addr=4, data=0x00000024
+Запись через порт B: addr=6, data=0x00000026
+[195000] Запись PORT_B: addr=5, data=0x00000025
+Запись через порт B: addr=7, data=0x00000027
+[205000] Запись PORT_B: addr=6, data=0x00000026
+[215000] Запись PORT_B: addr=7, data=0x00000027
+Чтение через порт B: addr=4, data=0x00000027 (ожидается 0x00000024)
+Error: Ошибка чтения порта B!
+Time: 245 ns  Iteration: 0  Process: /tb_bram/test_write_read_port_b/Block180_8  Scope: tb_bram.test_write_read_port_b.Block180_8  File: C:/Vivado_Projects/DAC_par/DAC_par.srcs/sim_1/new/tb_bram.sv Line: 188
+Чтение через порт B: addr=5, data=0x00000024 (ожидается 0x00000025)
+Error: Ошибка чтения порта B!
+Time: 265 ns  Iteration: 0  Process: /tb_bram/test_write_read_port_b/Block180_8  Scope: tb_bram.test_write_read_port_b.Block180_8  File: C:/Vivado_Projects/DAC_par/DAC_par.srcs/sim_1/new/tb_bram.sv Line: 188
+Чтение через порт B: addr=6, data=0x00000025 (ожидается 0x00000026)
+Error: Ошибка чтения порта B!
+Time: 285 ns  Iteration: 0  Process: /tb_bram/test_write_read_port_b/Block180_8  Scope: tb_bram.test_write_read_port_b.Block180_8  File: C:/Vivado_Projects/DAC_par/DAC_par.srcs/sim_1/new/tb_bram.sv Line: 188
+Чтение через порт B: addr=7, data=0x00000026 (ожидается 0x00000027)
+Error: Ошибка чтения порта B!
+Time: 305 ns  Iteration: 0  Process: /tb_bram/test_write_read_port_b/Block180_8  Scope: tb_bram.test_write_read_port_b.Block180_8  File: C:/Vivado_Projects/DAC_par/DAC_par.srcs/sim_1/new/tb_bram.sv Line: 188
+
+--- Тест 3: Одновременная работа портов A и B ---
+Одновременная запись: A(addr=10)=0xAA, B(addr=11)=0xBB
+[335000] Запись PORT_A: addr=10, data=0x000000aa
+[335000] Запись PORT_B: addr=11, data=0x000000bb
+Одновременное чтение: A(addr=10)=0x000000aa, B(addr=11)=0x000000bb
+
+--- Тест 4: Конфликт записи в одну ячейку ---
+Конфликт записи: оба порта пишут в addr=12
+Порт A: data=0xCC, Порт B: data=0xDD
+[395000] Запись PORT_A: addr=12, data=0x000000cc
+[395000] Запись PORT_B: addr=12, data=0x000000dd
+Результат конфликта: data=0x000000dd
+
+--- Тест 5: Тестирование отключенных портов ---
+[455000] Запись PORT_A: addr=13, data=0x000000ee
+Чтение с отключенным портом A: data=0x000000ee
+
+=== Тестирование завершено ===
+Всего тактов: 50
+$finish called at ti
