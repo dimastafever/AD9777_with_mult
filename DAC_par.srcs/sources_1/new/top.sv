@@ -140,6 +140,7 @@ parallel_DAC #(
     .out_ss(JC1_N),
     .out_sdio(JC3_P),
     .out_busy(),
+    .AS2_r(AS2_r),
     .valid(in_valid), 
     .sel_1_0(sel_1_0),
     .sel_1_1(sel_1_1),
