@@ -5,7 +5,7 @@ interpolating TxDAC+ family. The AD977x family features a
 serial port interface (SPI) that provides a high level of
 programmability, thus allowing for enhanced system level
 options.
-![alt text](image.png)
+![alt text](image.png)  
 Datasheet: [AD9777](https://www.farnell.com/datasheets/2253179.pdf)
 ### Algorithm
 Recive coefficients k and b. Then convert wdata 2 times by using formula y = kx + b.  
